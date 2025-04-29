@@ -48,10 +48,3 @@ if __name__ == "__main__":
     user_question = "what's 4 x 12?"  
     response = asyncio.run(run_app(user_question=user_question))  
     print(response)  
-# if __name__ == "__main__":
-#     #user_question = "what is the weather in california?"
-#     user_question = "what's 4 x 12?"
-#     #user_question = "what's the weather in seattle?"
-#     #user_question = "what's the weather in NYC?"
-#     response = asyncio.run(run_app(user_question=user_question))
-#     print(response)
