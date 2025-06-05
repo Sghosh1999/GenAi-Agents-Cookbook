@@ -1,0 +1,2 @@
+nemoguardrails==0.9.1
+langchain-openai==0.1.14

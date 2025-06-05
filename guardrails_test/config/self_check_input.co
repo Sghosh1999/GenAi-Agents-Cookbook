@@ -1,0 +1,7 @@
+define flow self check input
+  $allowed = execute self_check_input
+
+  if $allowed == False
+    bot refuse to respond
+    stop
+ 
